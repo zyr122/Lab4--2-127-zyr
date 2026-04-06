@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    margin: 20px auto;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.header span {
+    color: #0066cc;
+    font-weight: normal;
+    margin: 0 8px;
+}
+.header  hr {
+    height: 2px;
+    background-color: #333;
+    border: none;
+    margin: 10px 0;
+}
+.news-left hr {
+    display: none;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.news-left {
+    width: 68%;
+}
+
+.news-item {
+    margin-bottom: 25px;
+}
+.news-item:last-child {
+    margin-bottom: 0;
+}
+
+.news-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.news-item h3 a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.news-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.news-img {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.news-img img {
+    width: 49%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.author {
+    color: #666;
+    font-size: 14px;
+}
+.news-right {
+    width: 28%;
+    border: 1px solid #eee;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-top: 23px;
+}
+
+.news-right h4 {
+    font-size: 16px;
+    color: #c00;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #c00;
+}
+
+.hot-item {
+    margin-bottom: 20px;
+}
+.hot-item:last-child {
+    margin-bottom: 0;
+}
+
+.hot-title {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.hot-title:hover {
+    color: #0066cc;
+}
+.hot-item img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
